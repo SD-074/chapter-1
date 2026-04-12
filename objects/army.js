@@ -30,7 +30,7 @@ function canJoin(user) {
     console.log(user);
     
     if (user.gender == "man" && user.age >= 18 && user.age <= 40) {
-        // result = true;
+        result = true;
         user.canJoin = true;
     
         

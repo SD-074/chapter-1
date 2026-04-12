@@ -1,4 +1,6 @@
 const maRide = {
+    tyres: ["fr", "fl"],
+    enging: {number: "546465465", celender: 6},
   model: "2004",
   name: "Civic",
   hs: 900,
@@ -43,3 +45,28 @@ console.log(maRide.odometer);
 maRide.takeRide(23);
 console.log(maRide.odometer);
 console.log(maRide);
+
+
+// const model = maRide.model
+// const name = maRide.name
+
+let arr = [1, 2, 3, "home"]
+
+const [first, , second] = arr;
+
+console.log(first, second );
+
+
+const {model, name} = maRide
+console.log(name, model);
+
+console.log(maRide["model"]);
+// console.log(maRide[0][1]);
+console.log(maRide.enging.number);
+
+console.log(maRide.tyres[1]);
+console.log(maRide.model);
+
+
+
+

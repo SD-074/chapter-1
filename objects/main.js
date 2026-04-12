@@ -2,9 +2,11 @@
 // functions
 // string is object?
 // date / math objects
-// accessing object and destructuing:
 // hoisting: variables vs functions
 // const for objects and arrays...
+// Number()
+// sting methods lowercase....
+// accessing object and destructuing:
 
 const car = {
     hs: 200,
